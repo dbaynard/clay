@@ -1,1 +1,10 @@
-stack-8.0.yaml
+resolver: https://gist.github.com/dbaynard/9693107a883a6282f52f22785d0072e2/raw/0d442fb0e6918bb5bde06ac59565709ccf726170
+
+flags: {}
+
+packages:
+
+ghc-options:
+  "$everything": -pgmL markdown-unlit
+
+extra-deps: []
