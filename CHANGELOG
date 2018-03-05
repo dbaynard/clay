@@ -6,6 +6,7 @@ CHANGELOG
   - Update eachLine and hanging to work as spec (for textIndent).
   - Rename (internal) intersperse function to intercalate.
   - Added 'important' to append !important to values.
+  - Rewrite boxShadow functionality with BoxShadow newtype for arguments.
 
   0.10 -> 0.10.1
   - Expose a render function for single selectors.
